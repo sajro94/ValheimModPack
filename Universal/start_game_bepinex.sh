@@ -9,7 +9,7 @@
 #
 # Note that you won't get a console this way
 #
-# NOTE: Edit these values only if you know what you're doing!
+# NOTE: Edit the script only if you know what you're doing!
 
 # Resolve base directory relative to this script
 # Hopefully this resolves relative paths and links
@@ -39,6 +39,13 @@ while :; do
                 shift
             else
                 echo "No --doorstop-target value specified, using default!"
+            fi
+            ;;
+        --doorstop-dll-search-override)
+            if [ -n "$2" ]; then
+                export DOORSTOP_CORLIB_OVERRIDE_PATH="$2"
+            else
+                echo "No --doorstop-dll-search-override value specified, using default!"
             fi
             ;;
         *)
