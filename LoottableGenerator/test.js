@@ -1,3 +1,4 @@
+const { Console } = require("console");
 const fs = require("fs");
 const minify = require("strip-json-comments");
 
@@ -22,14 +23,16 @@ let drops1 = [
 //console.log(drops(drops1, 5));
 
 //Main
-let filename_in = "loottables copy.json";
+let filename_in = "LoottableGenerator/input_loottables.json";
 let levels = 5;
+let scale = 8;
+let mod = 1.75;
 let rawdata = fs.readFileSync(filename_in);
 rawdata = minify(String(rawdata));
 
 let loottables = JSON.parse(rawdata);
 for (let object of loottables.LootTables) {
-  console.log(object.Object);
+  //console.log(object.Object);
   let ObjectName = object.Object.toLowerCase();
 
   if (ObjectName.indexOf("chest") == -1) {
@@ -38,12 +41,12 @@ for (let object of loottables.LootTables) {
     if (object["LeveledLoot"] != undefined) {
       let level1 = object["LeveledLoot"][0];
       dropsArray = drops_Gen(level1.Drops, levels);
-      rarityArray = rarity_Gen(level1.Loot[0].Rarity, 1.15, 2, levels);
+      rarityArray = rarity_Gen(level1.Loot[0].Rarity, mod, scale, levels);
     } else {
       let drops = object.Drops;
       dropsArray = drops_Gen(drops, levels);
       let loot = object.Loot;
-      rarityArray = rarity_Gen(loot[0].Rarity, 1.15, 2, levels);
+      rarityArray = rarity_Gen(loot[0].Rarity, mod, scale, levels);
 
       delete object["Drops"];
       delete object["Drops2"];
@@ -73,11 +76,14 @@ for (let object of loottables.LootTables) {
     }
   }
 }
-fs.writeFileSync("out_" + filename_in, JSON.stringify(loottables));
+fs.writeFileSync(
+  "LoottableGenerator/loottables.json",
+  JSON.stringify(loottables, null, 2)
+);
+console.log("Loottables has been generated");
 //
 
 function rarity_Gen(input_array, mod, scale, levels) {
-  console.log(input_array);
   let result = [input_array];
   let array = Array(...input_array);
   for (let i = 1; i < levels; i++) {
