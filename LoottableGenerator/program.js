@@ -54,21 +54,20 @@ function createLootLevel(rarity, drops, oldLevel, creatureName, newLevel) {
 
 function convertToLeveledLoot(creature) {
   let LeveledLoot = [];
-  let LootLevel = {};
-  LootLevel.Level = 1;
-  LootLevel.Loot = creature.Loot;
-  LootLevel.Drops = creature.Drops;
-  LeveledLoot[0] = LootLevel;
+  LeveledLoot[0] = {};
+  LeveledLoot[0].Level = 1;
+  LeveledLoot[0].Loot = creature.Loot;
+  LeveledLoot[0].Drops = creature.Drops;
   if (creature.Loot2 != undefined && creature.Drops2 != undefined) {
-    LootLevel.Level = 2;
-    LootLevel.Loot = creature.Loot2;
-    LootLevel.Drops = creature.Drops2;
-    LeveledLoot[1] = LootLevel;
+    LeveledLoot[1] = {};
+    LeveledLoot[1].Level = 2;
+    LeveledLoot[1].Loot = creature.Loot2;
+    LeveledLoot[1].Drops = creature.Drops2;
     if (creature.Loot3 != undefined && creature.Drops3 != undefined) {
-      LootLevel.Level = 3;
-      LootLevel.Loot = creature.Loot3;
-      LootLevel.Drops = creature.Drops3;
-      LeveledLoot[2] = LootLevel;
+      LeveledLoot[2] = {};
+      LeveledLoot[2].Level = 3;
+      LeveledLoot[2].Loot = creature.Loot3;
+      LeveledLoot[2].Drops = creature.Drops3;
     }
   }
   return LeveledLoot;
