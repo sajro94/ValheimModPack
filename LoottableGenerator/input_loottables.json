@@ -30,15 +30,7 @@
   //   - It's not recommended to change any of these, but if you wanted to allow Dyrnwyn or tankards for some reason,
   //     remove them from this list. You really shouldn't remove Unarmed or CAPE TEST from this list.
   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-  "RestrictedItems": [
-    "$item_tankard",
-    "$item_tankard_odin",
-    "Unarmed",
-    "CAPE TEST",
-    "Cheat sword",
-    "$item_sword_fire",
-    "$item_shield_iron_square"
-  ],
+  "RestrictedItems": ["$item_tankard", "$item_tankard_odin", "Unarmed", "CAPE TEST", "Cheat sword", "$item_sword_fire", "$item_shield_iron_square"],
 
   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   // ITEM SETS
@@ -62,12 +54,7 @@
     },
     {
       "Name": "Tier0Everything",
-      "Loot": [
-        { "Item": "Tier0Weapons" },
-        { "Item": "Tier0Tools" },
-        { "Item": "Tier0Armor" },
-        { "Item": "Tier0Shields" }
-      ]
+      "Loot": [{ "Item": "Tier0Weapons" }, { "Item": "Tier0Tools" }, { "Item": "Tier0Armor" }, { "Item": "Tier0Shields" }]
     },
     {
       "Name": "Tier1Weapons",
@@ -93,11 +80,7 @@
     },
     {
       "Name": "Tier1Everything",
-      "Loot": [
-        { "Item": "Tier1Weapons" },
-        { "Item": "Tier1Armor" },
-        { "Item": "Tier1Tools" }
-      ]
+      "Loot": [{ "Item": "Tier1Weapons" }, { "Item": "Tier1Armor" }, { "Item": "Tier1Tools" }]
     },
     {
       "Name": "TrollArmor",
@@ -144,13 +127,7 @@
     },
     {
       "Name": "Tier2Everything",
-      "Loot": [
-        { "Item": "TrollArmor" },
-        { "Item": "Tier2Weapons" },
-        { "Item": "Tier2Armor" },
-        { "Item": "Tier2Shields" },
-        { "Item": "Tier2Tools" }
-      ]
+      "Loot": [{ "Item": "TrollArmor" }, { "Item": "Tier2Weapons" }, { "Item": "Tier2Armor" }, { "Item": "Tier2Shields" }, { "Item": "Tier2Tools" }]
     },
     {
       "Name": "Tier3Weapons",
@@ -185,12 +162,7 @@
     },
     {
       "Name": "Tier3Everything",
-      "Loot": [
-        { "Item": "Tier3Weapons" },
-        { "Item": "Tier3Armor" },
-        { "Item": "Tier3Shields" },
-        { "Item": "Tier3Tools" }
-      ]
+      "Loot": [{ "Item": "Tier3Weapons" }, { "Item": "Tier3Armor" }, { "Item": "Tier3Shields" }, { "Item": "Tier3Tools" }]
     },
     {
       "Name": "Tier4Weapons",
@@ -223,11 +195,7 @@
     },
     {
       "Name": "Tier4Everything",
-      "Loot": [
-        { "Item": "Tier4Weapons" },
-        { "Item": "Tier4Armor" },
-        { "Item": "Tier4Shields" }
-      ]
+      "Loot": [{ "Item": "Tier4Weapons" }, { "Item": "Tier4Armor" }, { "Item": "Tier4Shields" }]
     },
     {
       "Name": "Tier5Weapons",
@@ -270,11 +238,7 @@
     },
     {
       "Name": "Tier5Everything",
-      "Loot": [
-        { "Item": "Tier5Weapons" },
-        { "Item": "Tier5Armor" },
-        { "Item": "Tier5Shields" }
-      ]
+      "Loot": [{ "Item": "Tier5Weapons" }, { "Item": "Tier5Armor" }, { "Item": "Tier5Shields" }]
     }
   ],
   "LootTables": [
@@ -290,9 +254,7 @@
         [0, 95],
         [1, 5]
       ],
-      "Loot": [
-        { "Item": "Tier0Everything", "Weight": 1, "Rarity": [1, 0, 0, 0] }
-      ]
+      "Loot": [{ "Item": "Tier0Everything", "Weight": 1, "Rarity": [1, 0, 0, 0] }]
     },
     // Greydwarf
     ////////////////////////////////////////////////////////////////////////////////////
@@ -319,9 +281,7 @@
             [0, 90],
             [1, 10]
           ],
-          "Loot": [
-            { "Item": "Greydwarf.1", "Weight": 1, "Rarity": [95, 4, 1, 0] }
-          ]
+          "Loot": [{ "Item": "Greydwarf.1", "Weight": 1, "Rarity": [95, 4, 1, 0] }]
         },
         {
           "Level": 3,
@@ -329,9 +289,7 @@
             [0, 80],
             [1, 20]
           ],
-          "Loot": [
-            { "Item": "Greydwarf.1", "Weight": 1, "Rarity": [90, 8, 2, 0] }
-          ]
+          "Loot": [{ "Item": "Greydwarf.1", "Weight": 1, "Rarity": [90, 8, 2, 0] }]
         },
         {
           "Level": 4,
@@ -339,9 +297,7 @@
             [1, 90],
             [2, 10]
           ],
-          "Loot": [
-            { "Item": "Greydwarf.1", "Weight": 1, "Rarity": [85, 13, 2, 0] }
-          ]
+          "Loot": [{ "Item": "Greydwarf.1", "Weight": 1, "Rarity": [85, 13, 2, 0] }]
         }
       ]
     },
@@ -365,13 +321,8 @@
         { "Item": "Tier1Weapons", "Weight": 1, "Rarity": [95, 5, 0, 0] },
         { "Item": "Tier0Shields", "Weight": 1, "Rarity": [95, 5, 0, 0] }
       ],
-      "Loot2": [
-        { "Item": "Greydwarf_Elite.1" },
-        { "Item": "TrollArmor", "Weight": 1, "Rarity": [80, 15, 5, 0] }
-      ],
-      "Loot3": [
-        { "Item": "Greydwarf_Elite.2", "Weight": 1, "Rarity": [60, 30, 10, 0] }
-      ]
+      "Loot2": [{ "Item": "Greydwarf_Elite.1" }, { "Item": "TrollArmor", "Weight": 1, "Rarity": [80, 15, 5, 0] }],
+      "Loot3": [{ "Item": "Greydwarf_Elite.2", "Weight": 1, "Rarity": [60, 30, 10, 0] }]
     },
     // Greydwarf_Shaman
     ////////////////////////////////////////////////////////////////////////////////////
@@ -1018,9 +969,7 @@
         [2, 55],
         [3, 10]
       ],
-      "Loot": [
-        { "Item": "Tier2Everything", "Weight": 1, "Rarity": [60, 30, 9, 1] }
-      ]
+      "Loot": [{ "Item": "Tier2Everything", "Weight": 1, "Rarity": [60, 30, 9, 1] }]
     },
     // Bonemass
     ////////////////////////////////////////////////////////////////////////////////////
@@ -1031,9 +980,7 @@
         [3, 25],
         [4, 15]
       ],
-      "Loot": [
-        { "Item": "Tier3Everything", "Weight": 1, "Rarity": [19, 65, 14, 2] }
-      ]
+      "Loot": [{ "Item": "Tier3Everything", "Weight": 1, "Rarity": [19, 65, 14, 2] }]
     },
     // Dragon (Moder)
     ////////////////////////////////////////////////////////////////////////////////////
@@ -1044,9 +991,7 @@
         [3, 40],
         [4, 20]
       ],
-      "Loot": [
-        { "Item": "Tier4Everything", "Weight": 1, "Rarity": [0, 40, 50, 10] }
-      ]
+      "Loot": [{ "Item": "Tier4Everything", "Weight": 1, "Rarity": [0, 40, 50, 10] }]
     },
     // GoblinKing (Yagluth)
     ////////////////////////////////////////////////////////////////////////////////////
@@ -1058,9 +1003,7 @@
         [4, 15],
         [5, 5]
       ],
-      "Loot": [
-        { "Item": "Tier5Everything", "Weight": 1, "Rarity": [0, 10, 70, 20] }
-      ]
+      "Loot": [{ "Item": "Tier5Everything", "Weight": 1, "Rarity": [0, 10, 70, 20] }]
     },
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

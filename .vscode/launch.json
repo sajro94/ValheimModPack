@@ -7,7 +7,16 @@
         {
             "type": "pwa-node",
             "request": "launch",
-            "name": "Launch Program",
+            "name": "New Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\LoottableGenerator\\program.js"
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Old Program",
             "skipFiles": [
                 "<node_internals>/**"
             ],
