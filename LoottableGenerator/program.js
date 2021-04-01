@@ -7,7 +7,7 @@ main();
 function main() {
   let config_file = "LoottableGenerator/config.json";
   let loottable_inputFile = "LoottableGenerator/input_loottables.json";
-  let loottables_outputFile = "LoottableGenerator/loottablesv2.json";
+  let loottables_outputFile = "LoottableGenerator/loottables.json";
   let rawdata = minify(String(fs.readFileSync(config_file)));
   let config = JSON.parse(rawdata);
   rawdata = minify(String(fs.readFileSync(loottable_inputFile)));
