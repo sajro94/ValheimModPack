@@ -2,7 +2,7 @@
   "baseDodgeStaminaUse": 15,
   "baseBlockStaminaUse": 25,
   "baseAttackStaminaUse": 20,
-  "baseBowDrawMoveSpeeed": 0.75,
+  "baseBowDrawMoveSpeeed": 0.5,
   "loxEffectVal": 0.5,
   "classes": {
     "berserker": "Berserkr",
@@ -254,7 +254,7 @@
     "baseArmor": 15,
     "armorPerLevel": 1,
     "globalMoveMod": 0,
-    "setBonusVal": 0.2,
+    "setBonusVal": 0.20,
     "setActivationHP": 0.25,
     "headEffectVal": 0.08,
     "chestEffectVal": 13,
@@ -308,8 +308,8 @@
         "baseArmor": 19,
         "armorPerLevel": 1,
         "globalMoveMod": 0,
-        "setBonusVal": 0.3,
-        "setActivationHP": 0.5,
+        "setBonusVal": 0.30,
+        "setActivationHP": 0.50,
         "headEffectVal": 0.1,
         "chestEffectVal": 15,
         "legsEffectVal": 0.25
