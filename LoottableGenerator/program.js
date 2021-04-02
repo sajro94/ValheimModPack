@@ -1,20 +1,39 @@
 const fs = require("fs");
-const { createSecureServer } = require("http2");
 const minify = require("strip-json-comments");
 
 main();
 
 function main() {
   let config_file = "LoottableGenerator/config.json";
-  let loottable_inputFile = "LoottableGenerator/input_loottables.json";
-  let loottables_outputFile = "LoottableGenerator/loottables.json";
   let rawdata = minify(String(fs.readFileSync(config_file)));
   let config = JSON.parse(rawdata);
-  rawdata = minify(String(fs.readFileSync(loottable_inputFile)));
-  let loottables = JSON.parse(rawdata);
-  modifyLoottables(loottables, config);
-  fs.writeFileSync(loottables_outputFile, JSON.stringify(loottables, null, 2));
+  let loottable_inputFolder = "LoottableGenerator/input";
+  let loottables_outputFolder = "LoottableGenerator/output";
+  let files = fs.readdirSync(loottable_inputFolder);
+  for(file of files){
+    if(file.toLowerCase().indexOf(".json") != -1){
+      let inputfile = loottable_inputFolder+"/"+file;
+      let outputfile = loottables_outputFolder+"/"+file;
+      handleFile(config,inputfile,outputfile);
+    }
+  }
   console.log("Loottables has been generated");
+}
+
+function handleFile(config, inputfile, outputfile){
+  rawdata = minify(String(fs.readFileSync(inputfile)));
+  let loottables = JSON.parse(rawdata);
+  cleanItemSets(loottables.ItemSets);
+  modifyLoottables(loottables, config);
+  fs.writeFileSync(outputfile, JSON.stringify(loottables, null, 2));
+}
+
+function cleanItemSets(itemsets){
+  for(set of itemsets){
+    for(loot of set.Loot){
+      delete loot.Rarity;
+    }
+  }
 }
 
 function modifyLoottables(loottables, config) {

@@ -99,20 +99,16 @@
       "Name": "Tier1Weapons",
       "Loot": [
         {
-          "Item": "AxeFlint",
-          "Rarity": [99, 1, 0, 0]
+          "Item": "AxeFlint"
         },
         {
-          "Item": "SpearFlint",
-          "Rarity": [99, 1, 0, 0]
+          "Item": "SpearFlint"
         },
         {
-          "Item": "KnifeFlint",
-          "Rarity": [99, 1, 0, 0]
+          "Item": "KnifeFlint"
         },
         {
-          "Item": "Bow",
-          "Rarity": [99, 1, 0, 0]
+          "Item": "Bow"
         }
       ]
     },
@@ -120,20 +116,16 @@
       "Name": "Tier1Armor",
       "Loot": [
         {
-          "Item": "ArmorLeatherLegs",
-          "Rarity": [99, 1, 0, 0]
+          "Item": "ArmorLeatherLegs"
         },
         {
-          "Item": "ArmorLeatherChest",
-          "Rarity": [99, 1, 0, 0]
+          "Item": "ArmorLeatherChest"
         },
         {
-          "Item": "HelmetLeather",
-          "Rarity": [99, 1, 0, 0]
+          "Item": "HelmetLeather"
         },
         {
-          "Item": "CapeDeerHide",
-          "Rarity": [99, 1, 0, 0]
+          "Item": "CapeDeerHide"
         }
       ]
     },
@@ -141,8 +133,7 @@
       "Name": "Tier1Tools",
       "Loot": [
         {
-          "Item": "PickaxeAntler",
-          "Rarity": [99, 1, 0, 0]
+          "Item": "PickaxeAntler"
         }
       ]
     },
@@ -164,20 +155,16 @@
       "Name": "TrollArmor",
       "Loot": [
         {
-          "Item": "ArmorTrollLeatherLegs",
-          "Rarity": [95, 5, 0, 0]
+          "Item": "ArmorTrollLeatherLegs"
         },
         {
-          "Item": "ArmorTrollLeatherChest",
-          "Rarity": [95, 5, 0, 0]
+          "Item": "ArmorTrollLeatherChest"
         },
         {
-          "Item": "HelmetTrollLeather",
-          "Rarity": [95, 5, 0, 0]
+          "Item": "HelmetTrollLeather"
         },
         {
-          "Item": "CapeTrollHide",
-          "Rarity": [95, 5, 0, 0]
+          "Item": "CapeTrollHide"
         }
       ]
     },
@@ -186,53 +173,43 @@
       "Loot": [
         {
           "Item": "KnifeCopper",
-          "Weight": 1,
-          "Rarity": [95, 5, 0, 0]
+          "Weight": 1
         },
         {
           "Item": "SledgeStagbreaker",
-          "Weight": 1,
-          "Rarity": [95, 5, 0, 0]
+          "Weight": 1
         },
         {
           "Item": "SwordBronze",
-          "Weight": 1,
-          "Rarity": [95, 5, 0, 0]
+          "Weight": 1
         },
         {
           "Item": "AxeBronze",
-          "Weight": 1,
-          "Rarity": [95, 5, 0, 0]
+          "Weight": 1
         },
         {
           "Item": "MaceBronze",
-          "Weight": 1,
-          "Rarity": [95, 5, 0, 0]
+          "Weight": 1
         },
         {
           "Item": "AtgeirBronze",
-          "Weight": 1,
-          "Rarity": [95, 5, 0, 0]
+          "Weight": 1
         },
         {
           "Item": "SpearBronze",
-          "Weight": 1,
-          "Rarity": [95, 5, 0, 0]
+          "Weight": 1
         },
         {
           "Item": "BowFineWood",
-          "Weight": 1,
-          "Rarity": [95, 5, 0, 0]
+          "Weight": 1
         },
         {
           "Item": "KnifeChitin",
-          "Weight": 1,
-          "Rarity": [95, 5, 0, 0]
+          "Weight": 1
         },
         {
           "Item": "SpearChitin",
-          "Weight": 1,
-          "Rarity": [95, 5, 0, 0]
+          "Weight": 1
         }
       ]
     },
@@ -240,16 +217,13 @@
       "Name": "Tier2Armor",
       "Loot": [
         {
-          "Item": "ArmorBronzeLegs",
-          "Rarity": [95, 5, 0, 0]
+          "Item": "ArmorBronzeLegs"
         },
         {
-          "Item": "ArmorBronzeChest",
-          "Rarity": [95, 5, 0, 0]
+          "Item": "ArmorBronzeChest"
         },
         {
-          "Item": "HelmetBronze",
-          "Rarity": [95, 5, 0, 0]
+          "Item": "HelmetBronze"
         }
       ]
     },
@@ -257,8 +231,7 @@
       "Name": "Tier2Shields",
       "Loot": [
         {
-          "Item": "ShieldBronzeBuckler",
-          "Rarity": [95, 5, 0, 0]
+          "Item": "ShieldBronzeBuckler"
         }
       ]
     },
@@ -266,12 +239,10 @@
       "Name": "Tier2Tools",
       "Loot": [
         {
-          "Item": "PickaxeBronze",
-          "Rarity": [95, 5, 0, 0]
+          "Item": "PickaxeBronze"
         },
         {
-          "Item": "Cultivator",
-          "Rarity": [95, 5, 0, 0]
+          "Item": "Cultivator"
         }
       ]
     },
@@ -300,38 +271,31 @@
       "Loot": [
         {
           "Item": "Battleaxe",
-          "Weight": 1,
-          "Rarity": [40, 50, 9, 1]
+          "Weight": 1
         },
         {
           "Item": "SwordIron",
-          "Weight": 1,
-          "Rarity": [40, 50, 9, 1]
+          "Weight": 1
         },
         {
           "Item": "AxeIron",
-          "Weight": 1,
-          "Rarity": [40, 50, 9, 1]
+          "Weight": 1
         },
         {
           "Item": "SledgeIron",
-          "Weight": 1,
-          "Rarity": [40, 50, 9, 1]
+          "Weight": 1
         },
         {
           "Item": "MaceIron",
-          "Weight": 1,
-          "Rarity": [40, 50, 9, 1]
+          "Weight": 1
         },
         {
           "Item": "AtgeirIron",
-          "Weight": 1,
-          "Rarity": [40, 50, 9, 1]
+          "Weight": 1
         },
         {
           "Item": "SpearElderbark",
-          "Weight": 1,
-          "Rarity": [40, 50, 9, 1]
+          "Weight": 1
         }
       ]
     },
@@ -340,18 +304,15 @@
       "Loot": [
         {
           "Item": "ArmorIronLegs",
-          "Weight": 1,
-          "Rarity": [40, 50, 9, 1]
+          "Weight": 1
         },
         {
           "Item": "ArmorIronChest",
-          "Weight": 1,
-          "Rarity": [40, 50, 9, 1]
+          "Weight": 1
         },
         {
           "Item": "HelmetIron",
-          "Weight": 1,
-          "Rarity": [40, 50, 9, 1]
+          "Weight": 1
         }
       ]
     },
@@ -360,13 +321,11 @@
       "Loot": [
         {
           "Item": "ShieldBanded",
-          "Weight": 1,
-          "Rarity": [40, 50, 9, 1]
+          "Weight": 1
         },
         {
           "Item": "ShieldIronTower",
-          "Weight": 1,
-          "Rarity": [40, 50, 9, 1]
+          "Weight": 1
         }
       ]
     },
@@ -375,8 +334,7 @@
       "Loot": [
         {
           "Item": "PickaxeIron",
-          "Weight": 1,
-          "Rarity": [40, 50, 9, 1]
+          "Weight": 1
         }
       ]
     },
@@ -402,23 +360,19 @@
       "Loot": [
         {
           "Item": "SwordSilver",
-          "Weight": 10,
-          "Rarity": [10, 40, 45, 15]
+          "Weight": 10
         },
         {
           "Item": "SpearWolfFang",
-          "Weight": 10,
-          "Rarity": [10, 40, 45, 15]
+          "Weight": 10
         },
         {
           "Item": "MaceSilver",
-          "Weight": 1,
-          "Rarity": [10, 40, 45, 15]
+          "Weight": 1
         },
         {
           "Item": "BowDraugrFang",
-          "Weight": 1,
-          "Rarity": [10, 40, 45, 15]
+          "Weight": 1
         }
       ]
     },
@@ -427,23 +381,19 @@
       "Loot": [
         {
           "Item": "ArmorWolfLegs",
-          "Weight": 1,
-          "Rarity": [10, 40, 45, 15]
+          "Weight": 1
         },
         {
           "Item": "ArmorWolfChest",
-          "Weight": 1,
-          "Rarity": [10, 40, 45, 15]
+          "Weight": 1
         },
         {
           "Item": "HelmetDrake",
-          "Weight": 1,
-          "Rarity": [10, 40, 45, 15]
+          "Weight": 1
         },
         {
           "Item": "CapeWolf",
-          "Weight": 1,
-          "Rarity": [10, 40, 45, 15]
+          "Weight": 1
         }
       ]
     },
@@ -452,13 +402,11 @@
       "Loot": [
         {
           "Item": "ShieldSilver",
-          "Weight": 5,
-          "Rarity": [10, 40, 45, 15]
+          "Weight": 5
         },
         {
           "Item": "ShieldSerpentscale",
-          "Weight": 1,
-          "Rarity": [10, 40, 45, 15]
+          "Weight": 1
         }
       ]
     },
@@ -481,28 +429,23 @@
       "Loot": [
         {
           "Item": "AtgeirBlackmetal",
-          "Weight": 3,
-          "Rarity": [0, 30, 55, 15]
+          "Weight": 3
         },
         {
           "Item": "AxeBlackMetal",
-          "Weight": 3,
-          "Rarity": [0, 30, 55, 15]
+          "Weight": 3
         },
         {
           "Item": "KnifeBlackMetal",
-          "Weight": 3,
-          "Rarity": [0, 30, 55, 15]
+          "Weight": 3
         },
         {
           "Item": "SwordBlackmetal",
-          "Weight": 3,
-          "Rarity": [0, 30, 55, 15]
+          "Weight": 3
         },
         {
           "Item": "MaceNeedle",
-          "Weight": 1,
-          "Rarity": [0, 30, 55, 15]
+          "Weight": 1
         }
       ]
     },
@@ -511,28 +454,23 @@
       "Loot": [
         {
           "Item": "ArmorPaddedGreaves",
-          "Weight": 1,
-          "Rarity": [0, 30, 55, 15]
+          "Weight": 1
         },
         {
           "Item": "ArmorPaddedCuirass",
-          "Weight": 1,
-          "Rarity": [0, 30, 55, 15]
+          "Weight": 1
         },
         {
           "Item": "HelmetPadded",
-          "Weight": 1,
-          "Rarity": [0, 30, 55, 15]
+          "Weight": 1
         },
         {
           "Item": "CapeLinen",
-          "Weight": 1,
-          "Rarity": [0, 30, 55, 15]
+          "Weight": 1
         },
         {
           "Item": "CapeLox",
-          "Weight": 1,
-          "Rarity": [0, 30, 55, 15]
+          "Weight": 1
         }
       ]
     },
@@ -541,13 +479,11 @@
       "Loot": [
         {
           "Item": "ShieldBlackmetal",
-          "Weight": 1,
-          "Rarity": [0, 30, 55, 15]
+          "Weight": 1
         },
         {
           "Item": "ShieldBlackmetalTower",
-          "Weight": 1,
-          "Rarity": [0, 30, 55, 15]
+          "Weight": 1
         }
       ]
     },
@@ -3400,9 +3336,9 @@
     {
       "Object": "TreasureMapChest_Meadows",
       "Drops": [
-        [3, 60],
-        [4, 30],
-        [5, 10]
+        [3, 80],
+        [4, 15],
+        [5, 5]
       ],
       "Loot": [
         {
@@ -3420,9 +3356,9 @@
     {
       "Object": "TreasureMapChest_BlackForest",
       "Drops": [
-        [3, 60],
-        [4, 30],
-        [5, 10]
+        [3, 80],
+        [4, 15],
+        [5, 5]
       ],
       "Loot": [
         {
@@ -3440,9 +3376,9 @@
     {
       "Object": "TreasureMapChest_Swamp",
       "Drops": [
-        [3, 60],
-        [4, 30],
-        [5, 10]
+        [3, 80],
+        [4, 15],
+        [5, 5]
       ],
       "Loot": [
         {
@@ -3460,9 +3396,9 @@
     {
       "Object": "TreasureMapChest_Mountain",
       "Drops": [
-        [3, 60],
-        [4, 30],
-        [5, 10]
+        [3, 80],
+        [4, 15],
+        [5, 5]
       ],
       "Loot": [
         {
@@ -3480,9 +3416,9 @@
     {
       "Object": "TreasureMapChest_Plains",
       "Drops": [
-        [3, 60],
-        [4, 30],
-        [5, 10]
+        [3, 80],
+        [4, 15],
+        [5, 5]
       ],
       "Loot": [
         {
