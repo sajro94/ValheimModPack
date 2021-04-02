@@ -210,6 +210,10 @@
         {
           "Item": "SpearChitin",
           "Weight": 1
+        },
+        {
+          "Item": "BattleaxeBronzeTerraheim",
+          "Weight": 1
         }
       ]
     },
@@ -296,6 +300,10 @@
         {
           "Item": "SpearElderbark",
           "Weight": 1
+        },
+        {
+          "Item": "KnifeIron",
+          "Weight": 1
         }
       ]
     },
@@ -373,6 +381,18 @@
         {
           "Item": "BowDraugrFang",
           "Weight": 1
+        },
+        {
+          "Item": "AxeForstasca",
+          "Weight": 1
+        },
+        {
+          "Item": "SwordFolcbrand",
+          "Weight": 1
+        },
+        {
+          "Item": "AtgeirSilver",
+          "Weight": 1
         }
       ]
     },
@@ -446,6 +466,14 @@
         {
           "Item": "MaceNeedle",
           "Weight": 1
+        },
+        {
+          "Item": "SpearBlackmetal",
+          "Weight": 1
+        },
+        {
+          "Item": "BattleaxeBlackmetal",
+          "Weight": 1
         }
       ]
     },
@@ -488,6 +516,15 @@
       ]
     },
     {
+      "Name": "Tier5Tools",
+      "Loot": [
+        {
+          "Item": "PickaxeBlackmetal",
+          "Weight": 1
+        }
+      ]
+    },
+    {
       "Name": "Tier5Everything",
       "Loot": [
         {
@@ -498,6 +535,9 @@
         },
         {
           "Item": "Tier5Shields"
+        },
+        {
+          "Item": "Tier5Tools"
         }
       ]
     }
