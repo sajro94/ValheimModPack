@@ -33,380 +33,193 @@
   "ItemSets": [
     {
       "Name": "Tier0Weapons",
-      "Loot": [
-        {
-          "Item": "Club"
-        },
-        {
-          "Item": "AxeStone"
-        },
-        {
-          "Item": "Torch"
-        }
-      ]
+      "Loot": [{ "Item": "Club" }, { "Item": "AxeStone" }, { "Item": "Torch" }]
     },
     {
       "Name": "Tier0Tools",
-      "Loot": [
-        {
-          "Item": "Hammer"
-        },
-        {
-          "Item": "Hoe"
-        }
-      ]
+      "Loot": [{ "Item": "Hammer" }, { "Item": "Hoe" }]
     },
     {
       "Name": "Tier0Armor",
-      "Loot": [
-        {
-          "Item": "ArmorRagsLegs"
-        },
-        {
-          "Item": "ArmorRagsChest"
-        }
-      ]
+      "Loot": [{ "Item": "ArmorRagsLegs" }, { "Item": "ArmorRagsChest" }]
     },
     {
       "Name": "Tier0Shields",
-      "Loot": [
-        {
-          "Item": "ShieldWood"
-        },
-        {
-          "Item": "ShieldWoodTower"
-        }
-      ]
+      "Loot": [{ "Item": "ShieldWood" }, { "Item": "ShieldWoodTower" }]
     },
     {
       "Name": "Tier0Everything",
       "Loot": [
-        {
-          "Item": "Tier0Weapons"
-        },
-        {
-          "Item": "Tier0Tools"
-        },
-        {
-          "Item": "Tier0Armor"
-        },
-        {
-          "Item": "Tier0Shields"
-        }
+        { "Item": "Tier0Weapons" },
+        { "Item": "Tier0Tools" },
+        { "Item": "Tier0Armor" },
+        { "Item": "Tier0Shields" }
       ]
     },
     {
       "Name": "Tier1Weapons",
       "Loot": [
-        {
-          "Item": "AxeFlint"
-        },
-        {
-          "Item": "SpearFlint"
-        },
-        {
-          "Item": "KnifeFlint"
-        },
-        {
-          "Item": "Bow"
-        }
+        { "Item": "AxeFlint" },
+        { "Item": "SpearFlint" },
+        { "Item": "KnifeFlint" },
+        { "Item": "Bow" }
       ]
     },
     {
       "Name": "Tier1Armor",
       "Loot": [
-        {
-          "Item": "ArmorLeatherLegs"
-        },
-        {
-          "Item": "ArmorLeatherChest"
-        },
-        {
-          "Item": "HelmetLeather"
-        },
-        {
-          "Item": "CapeDeerHide"
-        }
+        { "Item": "ArmorLeatherLegs" },
+        { "Item": "ArmorLeatherChest" },
+        { "Item": "HelmetLeather" },
+        { "Item": "CapeDeerHide" }
       ]
     },
     {
       "Name": "Tier1Tools",
-      "Loot": [
-        {
-          "Item": "PickaxeAntler"
-        }
-      ]
+      "Loot": [{ "Item": "PickaxeAntler" }]
     },
     {
       "Name": "Tier1Everything",
       "Loot": [
-        {
-          "Item": "Tier1Weapons"
-        },
-        {
-          "Item": "Tier1Armor"
-        },
-        {
-          "Item": "Tier1Tools"
-        }
+        { "Item": "Tier1Weapons" },
+        { "Item": "Tier1Armor" },
+        { "Item": "Tier1Tools" }
       ]
     },
     {
       "Name": "TrollArmor",
       "Loot": [
-        {
-          "Item": "ArmorTrollLeatherLegs"
-        },
-        {
-          "Item": "ArmorTrollLeatherChest"
-        },
-        {
-          "Item": "HelmetTrollLeather"
-        },
-        {
-          "Item": "CapeTrollHide"
-        }
+        { "Item": "ArmorTrollLeatherLegs" },
+        { "Item": "ArmorTrollLeatherChest" },
+        { "Item": "HelmetTrollLeather" },
+        { "Item": "CapeTrollHide" }
       ]
     },
     {
       "Name": "Tier2Weapons",
       "Loot": [
-        {
-          "Item": "KnifeCopper",
-          "Weight": 1
-        },
-        {
-          "Item": "SledgeStagbreaker",
-          "Weight": 1
-        },
-        {
-          "Item": "SwordBronze",
-          "Weight": 1
-        },
-        {
-          "Item": "AxeBronze",
-          "Weight": 1
-        },
-        {
-          "Item": "MaceBronze",
-          "Weight": 1
-        },
-        {
-          "Item": "AtgeirBronze",
-          "Weight": 1
-        },
-        {
-          "Item": "SpearBronze",
-          "Weight": 1
-        },
-        {
-          "Item": "BowFineWood",
-          "Weight": 1
-        },
-        {
-          "Item": "KnifeChitin",
-          "Weight": 1
-        },
-        {
-          "Item": "SpearChitin",
-          "Weight": 1
-        }
+        { "Item": "KnifeCopper" },
+        { "Item": "SledgeStagbreaker" },
+        { "Item": "SwordBronze" },
+        { "Item": "AxeBronze" },
+        { "Item": "MaceBronze" },
+        { "Item": "AtgeirBronze" },
+        { "Item": "SpearBronze" },
+        { "Item": "BattleaxeBronzeTerraheim" },
+        { "Item": "BowFineWood" }
       ]
     },
     {
       "Name": "Tier2Armor",
       "Loot": [
-        {
-          "Item": "ArmorBronzeLegs"
-        },
-        {
-          "Item": "ArmorBronzeChest"
-        },
-        {
-          "Item": "HelmetBronze"
-        }
+        { "Item": "ArmorBronzeLegs" },
+        { "Item": "ArmorBronzeChest" },
+        { "Item": "HelmetBronze" }
       ]
     },
     {
       "Name": "Tier2Shields",
-      "Loot": [
-        {
-          "Item": "ShieldBronzeBuckler"
-        }
-      ]
+      "Loot": [{ "Item": "ShieldBronzeBuckler" }]
     },
     {
       "Name": "Tier2Tools",
-      "Loot": [
-        {
-          "Item": "PickaxeBronze"
-        },
-        {
-          "Item": "Cultivator"
-        }
-      ]
+      "Loot": [{ "Item": "PickaxeBronze" }, { "Item": "Cultivator" }]
     },
     {
       "Name": "Tier2Everything",
       "Loot": [
-        {
-          "Item": "TrollArmor"
-        },
-        {
-          "Item": "Tier2Weapons"
-        },
-        {
-          "Item": "Tier2Armor"
-        },
-        {
-          "Item": "Tier2Shields"
-        },
-        {
-          "Item": "Tier2Tools"
-        }
+        { "Item": "TrollArmor" },
+        { "Item": "Tier2Weapons" },
+        { "Item": "Tier2Armor" },
+        { "Item": "Tier2Shields" },
+        { "Item": "Tier2Tools" }
       ]
     },
     {
       "Name": "Tier3Weapons",
       "Loot": [
-        {
-          "Item": "Battleaxe",
-          "Weight": 1
-        },
-        {
-          "Item": "SwordIron",
-          "Weight": 1
-        },
-        {
-          "Item": "AxeIron",
-          "Weight": 1
-        },
-        {
-          "Item": "SledgeIron",
-          "Weight": 1
-        },
-        {
-          "Item": "MaceIron",
-          "Weight": 1
-        },
-        {
-          "Item": "AtgeirIron",
-          "Weight": 1
-        },
-        {
-          "Item": "SpearElderbark",
-          "Weight": 1
-        }
+        { "Item": "Battleaxe" },
+        { "Item": "SwordIron" },
+        { "Item": "AxeIron" },
+        { "Item": "SledgeIron" },
+        { "Item": "MaceIron" },
+        { "Item": "BowHuntsman" },
+        { "Item": "AtgeirIron" },
+        { "Item": "KnifeIron" },
+        { "Item": "SpearElderbark" }
       ]
     },
     {
       "Name": "Tier3Armor",
       "Loot": [
-        {
-          "Item": "ArmorIronLegs",
-          "Weight": 1
-        },
-        {
-          "Item": "ArmorIronChest",
-          "Weight": 1
-        },
-        {
-          "Item": "HelmetIron",
-          "Weight": 1
-        }
+        { "Item": "ArmorIronLegs" },
+        { "Item": "ArmorIronChest" },
+        { "Item": "HelmetIron" }
       ]
     },
     {
       "Name": "Tier3Shields",
-      "Loot": [
-        {
-          "Item": "ShieldBanded",
-          "Weight": 1
-        },
-        {
-          "Item": "ShieldIronTower",
-          "Weight": 1
-        }
-      ]
+      "Loot": [{ "Item": "ShieldBanded" }, { "Item": "ShieldIronTower" }]
     },
     {
       "Name": "Tier3Tools",
-      "Loot": [
-        {
-          "Item": "PickaxeIron",
-          "Weight": 1
-        }
-      ]
+      "Loot": [{ "Item": "PickaxeIron" }]
     },
     {
       "Name": "Tier3Everything",
       "Loot": [
-        {
-          "Item": "Tier3Weapons"
-        },
-        {
-          "Item": "Tier3Armor"
-        },
-        {
-          "Item": "Tier3Shields"
-        },
-        {
-          "Item": "Tier3Tools"
-        }
+        { "Item": "Tier3Weapons" },
+        { "Item": "Tier3Armor" },
+        { "Item": "Tier3Shields" },
+        { "Item": "Tier3Tools" }
       ]
     },
     {
       "Name": "Tier4Weapons",
       "Loot": [
-        {
-          "Item": "SwordSilver",
-          "Weight": 10
-        },
-        {
-          "Item": "SpearWolfFang",
-          "Weight": 10
-        },
-        {
-          "Item": "MaceSilver",
-          "Weight": 1
-        },
-        {
-          "Item": "BowDraugrFang",
-          "Weight": 1
-        }
+        { "Item": "SwordSilver" },
+        { "Item": "SpearWolfFang" },
+        { "Item": "MaceSilver" },
+        { "Item": "SwordFolcbrand" },
+        { "Item": "AtgeirSilver" },
+        { "Item": "AxeForstasca" },
+        { "Item": "BowDraugrFang" }
       ]
     },
     {
       "Name": "Tier4Armor",
       "Loot": [
+        { "Item": "ArmorWolfLegs" },
+        { "Item": "ArmorWolfChest" },
+        { "Item": "ArmorBronzeChestT4_Terraheim_AddNewSets_AddBronzeArmor " },
+        { "Item": "ArmorBronzeLegsT4_Terraheim_AddNewSets_AddBronzeArmor " },
+        { "Item": "HelmetIronT4_Terraheim_AddNewSets_AddIronArmor " },
+        { "Item": "ArmorIronChestT4_Terraheim_AddNewSets_AddIronArmor " },
+        { "Item": "ArmorIronLegsT4_Terraheim_AddNewSets_AddIronArmor" },
+        { "Item": "HelmetLeatherT4_Terraheim_AddNewSets_AddLeatherArmor" },
+        { "Item": "ArmorLeatherChestT4_Terraheim_AddNewSets_AddLeatherArmor" },
+        { "Item": "ArmorLeatherLegsT4_Terraheim_AddNewSets_AddLeatherArmor" },
         {
-          "Item": "ArmorWolfLegs",
-          "Weight": 1
+          "Item": "HelmetTrollLeatherT4_Terraheim_AddNewSets_AddTrollLeatherArmor"
         },
         {
-          "Item": "ArmorWolfChest",
-          "Weight": 1
+          "Item": "ArmorTrollLeatherChestT4_Terraheim_AddNewSets_AddTrollLeatherArmor"
         },
         {
-          "Item": "HelmetDrake",
-          "Weight": 1
+          "Item": "ArmorTrollLeatherLegsT4_Terraheim_AddNewSets_AddTrollLeatherArmor"
         },
-        {
-          "Item": "CapeWolf",
-          "Weight": 1
-        }
+        { "Item": "HelmetDrake" },
+        { "Item": "CapeWolf" }
       ]
     },
     {
       "Name": "Tier4Shields",
       "Loot": [
         {
-          "Item": "ShieldSilver",
-          "Weight": 5
+          "Item": "ShieldSilver"
         },
         {
-          "Item": "ShieldSerpentscale",
-          "Weight": 1
+          "Item": "ShieldSerpentscale"
         }
       ]
     },
@@ -427,63 +240,54 @@
     {
       "Name": "Tier5Weapons",
       "Loot": [
-        {
-          "Item": "AtgeirBlackmetal",
-          "Weight": 3
-        },
-        {
-          "Item": "AxeBlackMetal",
-          "Weight": 3
-        },
-        {
-          "Item": "KnifeBlackMetal",
-          "Weight": 3
-        },
-        {
-          "Item": "SwordBlackmetal",
-          "Weight": 3
-        },
-        {
-          "Item": "MaceNeedle",
-          "Weight": 1
-        }
+        { "Item": "AtgeirBlackmetal" },
+        { "Item": "AxeBlackMetal" },
+        { "Item": "KnifeBlackMetal" },
+        { "Item": "SwordBlackmetal" },
+        { "Item": "SpearBlackmetal" },
+        { "Item": "BattleaxeBlackmetal" },
+        { "Item": "PickaxeBlackmetal" },
+        { "Item": "MaceNeedle" },
+        { "Item": "BowDraugrFang" }
       ]
     },
     {
       "Name": "Tier5Armor",
       "Loot": [
+        { "Item": "ArmorPaddedGreaves" },
+        { "Item": "ArmorPaddedCuirass" },
+        { "Item": "HelmetPadded" },
+        { "Item": "HelmetLeatherT5_Terraheim_AddNewSets_AddLeatherArmor" },
+        { "Item": "ArmorLeatherChestT5_Terraheim_AddNewSets_AddLeatherArmor" },
+        { "Item": "ArmorLeatherLegsT5_Terraheim_AddNewSets_AddLeatherArmor" },
         {
-          "Item": "ArmorPaddedGreaves",
-          "Weight": 1
+          "Item": "HelmetTrollLeatherT5_Terraheim_AddNewSets_AddTrollLeatherArmor "
         },
         {
-          "Item": "ArmorPaddedCuirass",
-          "Weight": 1
+          "Item": "ArmorTrollLeatherChestT5_Terraheim_AddNewSets_AddTrollLeatherArmor"
         },
         {
-          "Item": "HelmetPadded",
-          "Weight": 1
+          "Item": "ArmorTrollLeatherLegsT5_Terraheim_AddNewSets_AddTrollLeatherArmor"
         },
-        {
-          "Item": "CapeLinen",
-          "Weight": 1
-        },
-        {
-          "Item": "CapeLox",
-          "Weight": 1
-        }
+        { "Item": "HelmetBronzeT5_Terraheim_AddNewSets_AddBronzeArmor" },
+        { "Item": "ArmorBronzeChestT5_Terraheim_AddNewSets_AddBronzeArmor " },
+        { "Item": "ArmorBronzeLegsT5_Terraheim_AddNewSets_AddBronzeArmor " },
+        { "Item": "ArmorIronChestT5_Terraheim_AddNewSets_AddIronArmor " },
+        { "Item": "ArmorIronLegsT5_Terraheim_AddNewSets_AddIronArmor" },
+        { "Item": "HelmetDrakeT5_Terraheim_AddNewSets_AddSilverArmor " },
+        { "Item": "ArmorWolfChestT5_Terraheim_AddNewSets_AddSilverArmor " },
+        { "Item": "ArmorWolfLegsT5_Terraheim_AddNewSets_AddSilverArmor " },
+        { "Item": "CapeLox" }
       ]
     },
     {
       "Name": "Tier5Shields",
       "Loot": [
         {
-          "Item": "ShieldBlackmetal",
-          "Weight": 1
+          "Item": "ShieldBlackmetal"
         },
         {
-          "Item": "ShieldBlackmetalTower",
-          "Weight": 1
+          "Item": "ShieldBlackmetalTower"
         }
       ]
     },
@@ -2594,6 +2398,12 @@
       "LeveledLoot": [
         {
           "Level": 1,
+          "Drops": [
+            [0, 30],
+            [1, 50],
+            [2, 15],
+            [3, 5]
+          ],
           "Loot": [
             {
               "Item": "Tier3Everything",
@@ -2609,6 +2419,12 @@
         },
         {
           "Level": 2,
+          "Drops": [
+            [0, 30],
+            [1, 50],
+            [2, 15],
+            [3, 5]
+          ],
           "Loot": [
             {
               "Item": "Tier3Everything",
@@ -2624,6 +2440,12 @@
         },
         {
           "Level": 3,
+          "Drops": [
+            [0, 30],
+            [1, 50],
+            [2, 15],
+            [3, 5]
+          ],
           "Loot": [
             {
               "Item": "Tier3Everything",
@@ -2639,6 +2461,12 @@
         },
         {
           "Level": 4,
+          "Drops": [
+            [0, 30],
+            [1, 50],
+            [2, 15],
+            [3, 5]
+          ],
           "Loot": [
             {
               "Item": "Tier3Everything",
@@ -2654,6 +2482,12 @@
         },
         {
           "Level": 5,
+          "Drops": [
+            [0, 30],
+            [1, 50],
+            [2, 15],
+            [3, 5]
+          ],
           "Loot": [
             {
               "Item": "Tier3Everything",
@@ -2669,6 +2503,12 @@
         },
         {
           "Level": 6,
+          "Drops": [
+            [0, 30],
+            [1, 50],
+            [2, 15],
+            [3, 5]
+          ],
           "Loot": [
             {
               "Item": "Tier4Everything",
