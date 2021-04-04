@@ -182,6 +182,20 @@
       "Type": "ClientPlugin",
       "Version": "0.4.2",
       "Url": "https://www.nexusmods.com/valheim/mods/236"
+    },
+    {
+      "NewestVersion": "1.6.0",
+      "Mod": "Better Trader",
+      "Type": "UniversalPlugin",
+      "Version": "1.6.0",
+      "Url": "https://www.nexusmods.com/valheim/mods/433"
+    },
+    {
+      "Url": "https://www.nexusmods.com/valheim/mods/577",
+      "Mod": "Movable Inventory Windows",
+      "Type": "ClientPlugin",
+      "Version": "0.2.2",
+      "NewestVersion": "0.2.2"
     }
   ]
 }
