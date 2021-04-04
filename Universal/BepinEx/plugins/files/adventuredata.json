@@ -97,7 +97,7 @@
       { "Item": "BattleaxeBronzeTerraheim", "CoinsCost": 350 },
       { "Item": "Battleaxe", "CoinsCost": 500 },
       { "Item": "SwordFolcbrand", "CoinsCost": 800 },
-      { "Item": "BattleaxeBronzeTerraheim", "CoinsCost": 1500 },
+      { "Item": "BattleaxeBlackmetal", "CoinsCost": 1500 },
 
       { "Item": "Club", "CoinsCost": 100 },
       { "Item": "MaceBronze", "CoinsCost": 350 },
@@ -164,15 +164,15 @@
         "CoinsCost": 2000
       },
       {
-        "Item": "ArmorBronzeChestT5_Terraheim_AddNewSets_AddBronzeArmor ",
+        "Item": "ArmorBronzeChestT5_Terraheim_AddNewSets_AddBronzeArmor",
         "CoinsCost": 2000
       },
       {
-        "Item": "ArmorIronChestT5_Terraheim_AddNewSets_AddIronArmor ",
+        "Item": "ArmorIronChestT5_Terraheim_AddNewSets_AddIronArmor",
         "CoinsCost": 2000
       },
       {
-        "Item": "ArmorWolfChestT5_Terraheim_AddNewSets_AddSilverArmor ",
+        "Item": "ArmorWolfChestT5_Terraheim_AddNewSets_AddSilverArmor",
         "CoinsCost": 2000
       },
 
@@ -192,7 +192,7 @@
         "CoinsCost": 2000
       },
       {
-        "Item": "ArmorBronzeLegsT5_Terraheim_AddNewSets_AddBronzeArmor ",
+        "Item": "ArmorBronzeLegsT5_Terraheim_AddNewSets_AddBronzeArmor",
         "CoinsCost": 2000
       },
       {
@@ -200,7 +200,7 @@
         "CoinsCost": 2000
       },
       {
-        "Item": "ArmorWolfLegsT5_Terraheim_AddNewSets_AddSilverArmor ",
+        "Item": "ArmorWolfLegsT5_Terraheim_AddNewSets_AddSilverArmor",
         "CoinsCost": 2000
       },
 
@@ -215,7 +215,7 @@
         "CoinsCost": 1000
       },
       {
-        "Item": "HelmetTrollLeatherT5_Terraheim_AddNewSets_AddTrollLeatherArmor ",
+        "Item": "HelmetTrollLeatherT5_Terraheim_AddNewSets_AddTrollLeatherArmor",
         "CoinsCost": 1000
       },
       {
@@ -223,11 +223,11 @@
         "CoinsCost": 1000
       },
       {
-        "Item": "HelmetIronT5_Terraheim_AddNewSets_AddIronArmor ",
+        "Item": "HelmetIronT5_Terraheim_AddNewSets_AddIronArmor",
         "CoinsCost": 1000
       },
       {
-        "Item": "HelmetDrakeT5_Terraheim_AddNewSets_AddSilverArmor ",
+        "Item": "HelmetDrakeT5_Terraheim_AddNewSets_AddSilverArmor",
         "CoinsCost": 1000
       },
 

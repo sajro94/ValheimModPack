@@ -1,0 +1,187 @@
+{
+  "Modpack": "DnDialers",
+  "ModList": [
+    {
+      "Mod": "BePinEx",
+      "Version": "5.4.901",
+      "NewestVersion": "5.4.901",
+      "Url": "https://valheim.thunderstore.io/package/denikson/BepInExPack_Valheim/",
+      "Type": "CoreMod"
+    },
+    {
+      "Mod": "SlimVML",
+      "Version": "1.1.0",
+      "NewestVersion": "1.1.0",
+      "Url": "",
+      "Type": "Patcher"
+    },
+    {
+      "Mod": "HookGenPatcher",
+      "Version": "0.0.2",
+      "NewestVersion": "0.0.2",
+      "Url": "https://www.nexusmods.com/valheim/mods/505",
+      "Type": "Patcher"
+    },
+    {
+      "Mod": "Terraheim",
+      "Version": "1.2.1",
+      "NewestVersion": "1.2.1",
+      "Url": "https://www.nexusmods.com/valheim/mods/803",
+      "Type": "UniversalPlugin"
+    },
+    {
+      "Mod": "Epic Loot",
+      "Version": "0.7.1",
+      "NewestVersion": "0.7.1",
+      "Url": "https://www.nexusmods.com/valheim/mods/387",
+      "Type": "UniversalPlugin"
+    },
+    {
+      "Mod": "Master Chef",
+      "Type": "UniversalPlugin",
+      "Url": "https://www.nexusmods.com/valheim/mods/658",
+      "Version": "1.0.1",
+      "NewestVersion": "1.0.1"
+    },
+    {
+      "Mod": "Mod Config Enforcer",
+      "Type": "UniversalPlugin",
+      "Url": "https://www.nexusmods.com/valheim/mods/460",
+      "Version": "1.4.1",
+      "NewestVersion": "1.4.1"
+    },
+    {
+      "Mod": "Epic Loot MCE Addon",
+      "Type": "UniversalPlugin",
+      "Version": "1.0.1",
+      "Url": "https://www.nexusmods.com/valheim/mods/707",
+      "NewestVersion": "1.0.1"
+    },
+    {
+      "Url": "https://www.nexusmods.com/valheim/mods/840",
+      "Version": "1.1",
+      "Type": "UniversalPlugin",
+      "Mod": "Runic Power",
+      "NewestVersion": "1.1"
+    },
+    {
+      "Mod": "ValheimLib",
+      "Type": "UniversalPlugin",
+      "Version": "0.0.15",
+      "Url": "https://www.nexusmods.com/valheim/mods/504",
+      "NewestVersion": "0.0.15"
+    },
+    {
+      "Url": "https://www.nexusmods.com/valheim/mods/205",
+      "Version": "0.0.13",
+      "Type": "UniversalPlugin",
+      "Mod": "Simple Recycling",
+      "NewestVersion": "0.0.13"
+    },
+    {
+      "Mod": "Cooking Skill",
+      "Type": "UniversalPlugin",
+      "Version": "1.1.4",
+      "Url": "https://www.nexusmods.com/valheim/mods/483",
+      "NewestVersion": "1.1.4"
+    },
+    {
+      "Url": "https://www.nexusmods.com/valheim/mods/40",
+      "Version": "2.1.1",
+      "Type": "UniversalPlugin",
+      "Mod": "Craft From Containers",
+      "NewestVersion": "2.1.1"
+    },
+    {
+      "Mod": "Creature Level and Loot Control",
+      "Type": "UniversalPlugin",
+      "Version": "3.4.4",
+      "Url": "https://www.nexusmods.com/valheim/mods/495",
+      "NewestVersion": "3.4.4"
+    },
+    {
+      "Url": "https://www.nexusmods.com/valheim/mods/281",
+      "Version": "1.0.0",
+      "Type": "UniversalPlugin",
+      "Mod": "Extended Item Data Framework",
+      "NewestVersion": "1.0.0"
+    },
+    {
+      "NewestVersion": "1.2.0",
+      "Mod": "Fortify Skills",
+      "Type": "UniversalPlugin",
+      "Version": "1.2.0",
+      "Url": "https://www.nexusmods.com/valheim/mods/172"
+    },
+    {
+      "Url": "https://www.nexusmods.com/valheim/mods/342",
+      "Version": "2.0.2",
+      "Type": "UniversalPlugin",
+      "Mod": "Gathering Skill",
+      "NewestVersion": "2.0.2"
+    },
+    {
+      "NewestVersion": "0.1.4",
+      "Mod": "JotunnLib",
+      "Type": "UniversalPlugin",
+      "Version": "0.1.4",
+      "Url": "https://www.nexusmods.com/valheim/mods/507"
+    },
+    {
+      "Url": "https://www.nexusmods.com/valheim/mods/305",
+      "Version": "1.0.2",
+      "Type": "UniversalPlugin",
+      "Mod": "Paddle Power",
+      "NewestVersion": "1.0.2"
+    },
+    {
+      "NewestVersion": "1.1.1",
+      "Mod": "Skill Injector",
+      "Type": "UniversalPlugin",
+      "Version": "1.1.1",
+      "Url": "https://www.nexusmods.com/valheim/mods/341"
+    },
+    {
+      "Url": "https://www.nexusmods.com/valheim/mods/452",
+      "Version": "1.0.4",
+      "Type": "UniversalPlugin",
+      "Mod": "Speedy Paths",
+      "NewestVersion": "1.0.4"
+    },
+    {
+      "NewestVersion": "0.9.6",
+      "Mod": "Valheim Plus",
+      "Type": "UniversalPlugin",
+      "Version": "0.9.6",
+      "Url": "https://www.nexusmods.com/valheim/mods/4"
+    },
+    {
+      "Url": "https://www.nexusmods.com/valheim/mods/189",
+      "Version": "1.6.4",
+      "Type": "ClientPlugin",
+      "Mod": "Better UI",
+      "NewestVersion": "1.6.4"
+    },
+    {
+      "NewestVersion": "1.4.2",
+      "Mod": "Clock",
+      "Type": "ClientPlugin",
+      "Version": "1.4.2",
+      "Url": "https://www.nexusmods.com/valheim/mods/85"
+    },
+    {
+      "Url": "https://www.nexusmods.com/valheim/mods/92",
+      "Version": "2.0.4",
+      "Type": "ClientPlugin",
+      "Mod": "Equipment and Quick Slots",
+      "NewestVersion": "2.0.4"
+    },
+    {
+      "NewestVersion": "0.4.2",
+      "Mod": "Hold Attack",
+      "Type": "ClientPlugin",
+      "Version": "0.4.2",
+      "Url": "https://www.nexusmods.com/valheim/mods/236"
+    }
+  ]
+}
