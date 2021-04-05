@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3051901894
+CRC: 1006784644
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: e33e3b473b7b727244221db4a092b24f
+    Hash: 5676004cfffed12a1d0cfade58d45520
   TypeTreeHash:
     serializedVersion: 2
     Hash: eda0d339619d11c42b90b5a8f9cddee6
@@ -77,18 +77,24 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
+- Assets/CustomItems/frostbomb/frostbomb_projectile.prefab
+- Assets/CustomItems/frostbomb/frostbomb_explosion.prefab
 - Assets/CustomItems/folcbrand/SwordFolcbrand.prefab
+- Assets/CustomItems/lightningbomb/lightningbomb_projectile.prefab
+- Assets/CustomItems/lightningbomb/BombLightning.prefab
+- Assets/CustomItems/firebomb/BombFire.prefab
 - Assets/CustomItems/kresja/AtgeirSilver.prefab
 - Assets/CustomItems/blackmetalspear/blackmetalspear_projectile.prefab
 - Assets/CustomItems/blackmetalspear/SpearBlackmetal.prefab
 - Assets/CustomItems/blackmetalAxehammer/BattleaxeBronzeTerraheim.prefab
+- Assets/CustomItems/firebomb/firebomb_explosion.prefab
 - Assets/CustomItems/Olympia/TorchOlympia.prefab
+- Assets/CustomItems/lightningbomb/lightningbomb_explosion.prefab
 - Assets/CustomItems/forstasca/AxeForstasca.prefab
 - Assets/CustomItems/blackironPickaxe/PickaxeBlackmetal.prefab
 - Assets/CustomItems/firebomb/firebomb_projectile.prefab
-- Assets/CustomItems/firebomb/firebomb_explosion.prefab
 - Assets/CustomItems/BattleaxeBronze/BattleaxeBronzeTerraheim.prefab
-- Assets/CustomItems/firebomb/BombFire.prefab
+- Assets/CustomItems/frostbomb/BombFrost.prefab
 - Assets/CustomItems/ironKnife/KnifeIron.prefab
 - Assets/CustomItems/blackmetalAxehammer/BattleaxeBlackmetal.prefab
 Dependencies: []

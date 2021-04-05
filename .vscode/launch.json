@@ -7,20 +7,17 @@
         {
             "type": "pwa-node",
             "request": "launch",
-            "name": "New Program",
+            "name": "Loottable Generator",
             "skipFiles": [
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}\\LoottableGenerator\\program.js"
         },
         {
-            "type": "pwa-node",
+            "type": "node",
             "request": "launch",
-            "name": "Old Program",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "program": "${workspaceFolder}\\LoottableGenerator\\test.js"
+            "name": "Version Checker",
+            "program": "${workspaceFolder}\\ModpackVersionChecker\\index.js"
         }
     ]
 }

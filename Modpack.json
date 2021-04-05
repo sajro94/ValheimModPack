@@ -6,14 +6,16 @@
       "Version": "5.4.901",
       "NewestVersion": "5.4.901",
       "Url": "https://valheim.thunderstore.io/package/denikson/BepInExPack_Valheim/",
-      "Type": "CoreMod"
+      "Type": "CoreMod",
+      "Skip": true
     },
     {
       "Mod": "SlimVML",
       "Version": "1.1.0",
       "NewestVersion": "1.1.0",
       "Url": "",
-      "Type": "Patcher"
+      "Type": "Patcher",
+      "Skip": true
     },
     {
       "Mod": "HookGenPatcher",
@@ -24,15 +26,15 @@
     },
     {
       "Mod": "Terraheim",
-      "Version": "1.2.1",
-      "NewestVersion": "1.2.1",
+      "Version": "1.3.0",
+      "NewestVersion": "1.3.0",
       "Url": "https://www.nexusmods.com/valheim/mods/803",
       "Type": "UniversalPlugin"
     },
     {
       "Mod": "Epic Loot",
-      "Version": "0.7.1",
-      "NewestVersion": "0.7.1",
+      "Version": "0.7.2",
+      "NewestVersion": "0.7.2",
       "Url": "https://www.nexusmods.com/valheim/mods/387",
       "Type": "UniversalPlugin"
     },
@@ -53,16 +55,16 @@
     {
       "Mod": "Epic Loot MCE Addon",
       "Type": "UniversalPlugin",
-      "Version": "1.0.1",
+      "Version": "1.0.2",
       "Url": "https://www.nexusmods.com/valheim/mods/707",
-      "NewestVersion": "1.0.1"
+      "NewestVersion": "1.0.2"
     },
     {
       "Url": "https://www.nexusmods.com/valheim/mods/840",
-      "Version": "1.1",
+      "Version": "1.2.1",
       "Type": "UniversalPlugin",
       "Mod": "Runic Power",
-      "NewestVersion": "1.1"
+      "NewestVersion": "1.2.1"
     },
     {
       "Mod": "ValheimLib",
@@ -87,10 +89,10 @@
     },
     {
       "Url": "https://www.nexusmods.com/valheim/mods/40",
-      "Version": "2.1.1",
+      "Version": "2.1.2",
       "Type": "UniversalPlugin",
       "Mod": "Craft From Containers",
-      "NewestVersion": "2.1.1"
+      "NewestVersion": "2.1.2"
     },
     {
       "Mod": "Creature Level and Loot Control",
@@ -163,10 +165,10 @@
       "NewestVersion": "1.6.4"
     },
     {
-      "NewestVersion": "1.4.2",
+      "NewestVersion": "1.4.3",
       "Mod": "Clock",
       "Type": "ClientPlugin",
-      "Version": "1.4.2",
+      "Version": "1.4.3",
       "Url": "https://www.nexusmods.com/valheim/mods/85"
     },
     {

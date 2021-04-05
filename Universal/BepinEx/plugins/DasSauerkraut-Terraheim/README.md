@@ -4,6 +4,7 @@
 ## Weapons and Tools
 Nine new weapons and tools have been added with the goal of filling in the gaps in each tier.
 These weapons are as follows: Bronze Battleaxe, Iron Knife, Forstasca (Silver Axe), Folcbrand (Silver Greatsword), Silver Kresja (Atgeir), Blackmetal Spear, Blackmetal Axehammer(Greataxe), and the much coveted Blackmetal Pickaxe.
+Fire, Frost and Lightning bombs have been added as well!
 ![weapons](https://media.discordapp.net/attachments/610164117277245482/827283248425992282/unknown.png?width=892&height=640)
 You can view damage values, moveset information, and recipes [here](https://docs.google.com/spreadsheets/d/1DlnnJOvorgCQ1k1e4lO5nF8M-QQpf7FZmO5bRj3mwLI/edit?usp=sharing) in the Weapons tab.
 If you only want the new weapons, you can delete the Terraheim.dll file to disable the armor changes.
@@ -55,6 +56,13 @@ These mods compliment Terraheim by adding new weapons and rebalancing mechanics.
 [Nexus](https://www.nexusmods.com/valheim/mods/803?tab=description)
 
 ### Patchnotes
+**v1.3.0**
+- Added three new types of bombs! The Fire, Frost and Lightning Bomb
+- Rebalanced Folcbrand to better fit the upcoming two handed weapon update
+- Fixed issue with leather pants not scaling
+- Actually fixed bug where set bonuses would not improve when an armor was uptiered for real this time.
+- Fixed bugged particle effects for Forstasca and Blackmetal pickaxe
+- The stutter bug has been fixed, we're just waiting on the release of the merged ValheimLib and JotunnLib!
 **v1.2.1**
 - Reworked Silver armor set bonus! It now provides a damage boost while below a set health percentage. You can prevent healing by crouching too!
 - Replaced the Blackmetal Axehammer's alternate attack with an AoE slam ala Stagbreaker.
