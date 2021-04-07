@@ -6,7 +6,8 @@ const game = "valheim";
 const category = "main";
 let id = 232;
 
-const api_key = "dDAwbjN1VVNKVHhzOWVUWVlPdmN6QlBpWUZtUUNPaWlDVDFNSGxsV2Fraz0tLTVFYzhkWDNmQVdEQVVISC9meEtKcEE9PQ==--fe6f666dfd0a88430686c6f17e7f8787a9d8f371";
+const api_key =
+  "dDAwbjN1VVNKVHhzOWVUWVlPdmN6QlBpWUZtUUNPaWlDVDFNSGxsV2Fraz0tLTVFYzhkWDNmQVdEQVVISC9meEtKcEE9PQ==--fe6f666dfd0a88430686c6f17e7f8787a9d8f371";
 
 main();
 
@@ -30,9 +31,17 @@ function main() {
         return !mod.UpToDate;
       });
       fs.writeFileSync("Modpack.json", JSON.stringify(newModpack, null, 2));
-      fs.writeFileSync("ModsInNeedOfUpdate.json", JSON.stringify(modpack, null, 2));
+      fs.writeFileSync(
+        "ModsInNeedOfUpdate.json",
+        JSON.stringify(modpack, null, 2)
+      );
+      if (modpack.ModList.length == 0) {
+        console.log("All mods are up to date.");
+      }
       for (mod of modpack.ModList) {
-        console.log(`${mod.Mod} has a possible update: ${mod.Version} => ${mod.NewestVersion}`);
+        console.log(
+          `${mod.Mod} has a possible update: ${mod.Version} => ${mod.NewestVersion}`
+        );
       }
     });
   });

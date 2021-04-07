@@ -146,7 +146,8 @@
         { "Item": "BowHuntsman" },
         { "Item": "AtgeirIron" },
         { "Item": "KnifeIron" },
-        { "Item": "SpearElderbark" }
+        { "Item": "SpearElderbark" },
+        { "Item": "GreatswordIron" }
       ]
     },
     {
@@ -183,7 +184,8 @@
         { "Item": "SwordFolcbrand" },
         { "Item": "AtgeirSilver" },
         { "Item": "AxeForstasca" },
-        { "Item": "BowDraugrFang" }
+        { "Item": "BowDraugrFang" },
+        { "Item": "BattleaxeSilver" }
       ]
     },
     {
@@ -249,7 +251,9 @@
         { "Item": "BattleaxeBlackmetal" },
         { "Item": "PickaxeBlackmetal" },
         { "Item": "MaceNeedle" },
-        { "Item": "BowDraugrFang" }
+        { "Item": "BowDraugrFang" },
+        { "Item": "GreatswordBlackmetal" },
+        { "Item": "GreataxeBlackmetal" }
       ]
     },
     {

@@ -62,7 +62,11 @@
       "ArmorLeatherChestT5_Terraheim_AddNewSets_AddLeatherArmor",
       "HelmetLeatherT5_Terraheim_AddNewSets_AddLeatherArmor",
       "GoldRubyRing",
-      "SilverRing"
+      "SilverRing",
+      "GreatswordIron",
+      "GreatswordBlackmetal",
+      "GreataxeBlackmetal",
+      "BattleaxeSilver"
     ],
     "GamblesCount": 4,
     "GambleRarityChance": [10, 69, 15, 5, 1],
@@ -97,8 +101,12 @@
 
       { "Item": "BattleaxeBronzeTerraheim", "CoinsCost": 350 },
       { "Item": "Battleaxe", "CoinsCost": 500 },
+      { "Item": "GreatswordIron", "CoinsCost": 500 },
       { "Item": "SwordFolcbrand", "CoinsCost": 800 },
+      { "Item": "BattleaxeSilver", "CoinsCost": 800 },
       { "Item": "BattleaxeBlackmetal", "CoinsCost": 1500 },
+      { "Item": "GreataxeBlackmetal", "CoinsCost": 1500 },
+      { "Item": "GreatswordBlackmetal", "CoinsCost": 1500 },
 
       { "Item": "Club", "CoinsCost": 100 },
       { "Item": "MaceBronze", "CoinsCost": 350 },

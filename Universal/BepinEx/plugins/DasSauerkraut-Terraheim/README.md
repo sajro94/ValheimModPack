@@ -3,9 +3,9 @@
 ![Its ya boy, back at it again at the mountains](https://media.discordapp.net/attachments/610164117277245482/827282733658669056/unknown.png?width=960&height=540)
 ## Weapons and Tools
 Nine new weapons and tools have been added with the goal of filling in the gaps in each tier.
-These weapons are as follows: Bronze Battleaxe, Iron Knife, Forstasca (Silver Axe), Folcbrand (Silver Greatsword), Silver Kresja (Atgeir), Blackmetal Spear, Blackmetal Axehammer(Greataxe), and the much coveted Blackmetal Pickaxe.
+
 Fire, Frost and Lightning bombs have been added as well!
-![weapons](https://media.discordapp.net/attachments/610164117277245482/827283248425992282/unknown.png?width=892&height=640)
+![weapons](https://cdn.discordapp.com/attachments/610164117277245482/828743095369334864/Capture.PNG)
 You can view damage values, moveset information, and recipes [here](https://docs.google.com/spreadsheets/d/1DlnnJOvorgCQ1k1e4lO5nF8M-QQpf7FZmO5bRj3mwLI/edit?usp=sharing) in the Weapons tab.
 If you only want the new weapons, you can delete the Terraheim.dll file to disable the armor changes.
 ## Armor
@@ -35,11 +35,11 @@ Currently two utility items have been added, the Aescfell Belt and the Stánbrys
 **Terraheim** is highly customizable as the effectiveness, material costs, and almost every armor stat can be tweaked in the `balance.json` file. Unfortunately, the same can not be said for weapons as of right now.
 **Bow Balance** - To prevent bowmen from being the be all end all class, the bow weapon type has been slightly nerfed by halving movement speed while the bow is drawn. This can be mitigated by wearing silver armor, or if you don't like it at all, you can remove it by setting `"baseBowDrawMoveSpeeed"` to 1 in the `balance.json` file.
 ## Compatibility
-There seems to be an incompatibility with ValheimLibOpenDatabasePatch.dll, I'm currently investigating.
+There seems to be an incompatibility with ValheimLibOpenDatabasePatch.dll. Unfortunately I can't do anything about this issue, sorry.
 TripleBronze also appears to be incompatible.
 EpicLoot **IS** compatible, but there may be balance issues if both are installed.
 ## Future Plans
-Flametal armor sets for each class
+Flametal armor sets and weapons for each class
 EpicLoot version with tweaked balance
 ### Known Issues
 - You will appear naked on the character selection screen  
@@ -56,6 +56,10 @@ These mods compliment Terraheim by adding new weapons and rebalancing mechanics.
 [Nexus](https://www.nexusmods.com/valheim/mods/803?tab=description)
 
 ### Patchnotes
+**v1.4.0 - The Zweihander Update**
+- Added 4 new weapons! The Iron Greatsword, the Blackmetal Greatsword, the Silver Battleaxe, and the Blackmetal Battleaxe.
+- Damage modifier for the Blackmetal Axehammer's slam attack has been buffed to 2x.
+- Blackmetal Axehammer's slam attack has been improved.
 **v1.3.0**
 - Added three new types of bombs! The Fire, Frost and Lightning Bomb
 - Rebalanced Folcbrand to better fit the upcoming two handed weapon update
