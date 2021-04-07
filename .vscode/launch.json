@@ -17,7 +17,7 @@
             "type": "node",
             "request": "launch",
             "name": "Version Checker",
-            "program": "${workspaceFolder}\\ModpackVersionChecker\\index.js"
+            "program": "${workspaceFolder}\\ModVersionChecker\\index.js"
         }
     ]
 }
