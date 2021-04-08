@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "del": "^6.0.0",
     "fs": "0.0.1-security",
     "request": "^2.88.2",
     "request-promise-native": "^1.0.9"

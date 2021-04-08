@@ -1,4 +1,35 @@
 {
   "Modpack": "DnDialers",
-  "ModList": []
+  "ModList": [
+    {
+      "Mod": "Epic Loot",
+      "Version": "0.7.4",
+      "NewestVersion": "0.7.5",
+      "Url": "https://www.nexusmods.com/valheim/mods/387",
+      "Type": "UniversalPlugin",
+      "UpToDate": false,
+      "FileId": 3647,
+      "NexusId": "387"
+    },
+    {
+      "Mod": "Creature Level and Loot Control",
+      "Type": "UniversalPlugin",
+      "Version": "3.5.1",
+      "Url": "https://www.nexusmods.com/valheim/mods/495",
+      "NewestVersion": "3.5.2",
+      "UpToDate": false,
+      "FileId": 3597,
+      "NexusId": "495"
+    },
+    {
+      "NewestVersion": "0.1.6",
+      "Mod": "JotunnLib",
+      "Type": "UniversalPlugin",
+      "Version": "0.1.4",
+      "Url": "https://www.nexusmods.com/valheim/mods/507",
+      "UpToDate": false,
+      "FileId": 3637,
+      "NexusId": "507"
+    }
+  ]
 }

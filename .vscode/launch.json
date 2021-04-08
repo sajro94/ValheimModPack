@@ -18,6 +18,19 @@
             "request": "launch",
             "name": "Version Checker",
             "program": "${workspaceFolder}\\ModVersionChecker\\index.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Download Updates",
+            "program": "${workspaceFolder}\\ModVersionChecker\\DownloadUpdates.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Roman Numerals",
+            "program": "${workspaceFolder}\\RomanNumeralFun\\index.js",
+            "console": "integratedTerminal"
         }
     ]
 }
